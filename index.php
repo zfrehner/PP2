@@ -30,6 +30,7 @@ function printArr($numbers) {
     foreach($numbers as $number) {
         echo "$number". "<br>";
     }
+    printArr($numbers);
 }
 ?>
 
