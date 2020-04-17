@@ -26,12 +26,8 @@ echo "<h2>PHP Array Practice</h2>";
 
 echo "<h3>Step 2</h3>";
 $numbers = ['7','9','8','9','8','8','6'];
-function printArr($numbers) {
-    foreach($numbers as $number) {
-        echo "$number". "<br>";
-    }
-    printArr($numbers);
-}
+include("step3.php");
+printArr($numbers);
 ?>
 
 </body>
