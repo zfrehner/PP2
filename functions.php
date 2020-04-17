@@ -12,6 +12,9 @@ function printArr($array) {
 
     //returns array with duplicates removed
     function removeDups($array) {
-        echo "<p>Remove Duplicates: ". array_unique($array);
+        $UniqueArray = array_unique($array);
+        foreach($UniqueArray as $number) {
+            echo "$number". "<br>";
+        }
     }
 }
