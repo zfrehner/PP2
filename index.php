@@ -26,8 +26,16 @@ echo "<h2>PHP Array Practice</h2>";
 
 echo "<h3>Step 2</h3>";
 $numbers = ['7','9','8','9','8','8','6'];
-include("step3.php");
+include("functions.php");
 printArr($numbers);
+
+//step 4
+echo "<h2>Step 4</h2>";
+largest($numbers);
+
+//step 5
+echo "<h2>Step 5</h2>";
+removeDups($numbers);
 ?>
 
 </body>
