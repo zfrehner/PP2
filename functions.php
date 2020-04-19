@@ -17,4 +17,14 @@ function printArr($array) {
             echo "$number". "<br>";
         }
     }
+
+    //return associative array
+    function distribution($array) {
+
+       $countArray = array_count_values($array);
+       foreach($countArray as $array => $count) {
+           echo  "$array"." -> ". "$count". "<br>";
+        }
+
+    }
 }

@@ -25,6 +25,8 @@ error_reporting(E_ALL);
 echo "<h2>PHP Array Practice</h2>";
 
 echo "<h3>Step 2</h3>";
+echo "<p>Print the elements in the array</p>";
+
 $numbers = ['7','9','8','9','8','8','6'];
 include("functions.php");
 printArr($numbers);
@@ -35,7 +37,13 @@ largest($numbers);
 
 //step 5
 echo "<h2>Step 5</h2>";
+echo "<p>Remove the duplicates and print the remaining elements</p>";
 removeDups($numbers);
+
+//step 6
+echo "<h2>Step 6</h2>";
+echo "<p>Print the value of the array along with the number of times it appears in the array</p>";
+distribution($numbers);
 ?>
 
 </body>
